@@ -13,11 +13,10 @@ a:visited{
 
 .header-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto 300px;
     padding: 15px;
     padding-left: 50px;
     margin: 15px;
-    
 }
 
 .text-div{
@@ -25,8 +24,7 @@ a:visited{
     text-align: right;
     font-size: 28px;
     padding-right: 5px;
-    padding-top: 17px;
-    
+    padding-top: 37px;
 }
 
 h1{
@@ -38,6 +36,35 @@ h1{
     padding-left: 130px;
     padding-top: 10px;
     
+}
+
+.search-box{
+    display: flex;
+    align-items: center,;
+    margin-left: 100px;
+    margin-top: 37px;
+}
+
+.header-container input{
+    width: 200px;
+    height: 24px;
+    padding: 3px;
+    margin-left: 0;
+}
+
+.header-container button{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    padding: 0%;
+    margin-top: 0;
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
 }
 
 .footer-container{
@@ -83,7 +110,7 @@ h2{
     padding: 0;
 }
 
-button{
+h2 button{
     width: 30px;
     height: 30px;
     margin: 10px;
@@ -94,4 +121,5 @@ button{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30px;
+    cursor: pointer;
 }
