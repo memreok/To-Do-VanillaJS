@@ -18,7 +18,7 @@
 
         <div class="search-box">
         <input type="search" name="search" id="search" placeholder="Search">
-        <button type="submit" onclick="SearchTask()"></button>
+        <button type="submit" id="searchBtn"></button>
         </div>
 
         <div class="text-div"><a href="http://docs.yavuzlar.org" target="_blank" >Blog - Yavuzlar</a></div>
@@ -28,14 +28,20 @@
     <!--BODY-->
     <div class="body-container">
         <div>
-            <h2>DO <button type="button" onclick="AddTask()" ></button> </h2>
-            
+            <h2>DO <button  id="addBtn" ></button> </h2>
+            <ul id="list">
+                
+
+
+            </ul>
         </div>
         <div>
             <h2>DOING</h2>
+
         </div>
         <div>
             <h2>DONE</h2>
+
         </div>
     </div>
 
