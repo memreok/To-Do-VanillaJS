@@ -136,15 +136,87 @@ h2 button{
     color: whitesmoke;
 }
 
-#list{
-    list-style: none;
-}
+
 
 li{
     color: whitesmoke;
     font-size: 28px;
     font-family: sans-serif;
-    padding-left: 10px;
+    padding-left: 0px;
     max-width: 100vh;
 
+}
+
+hr{
+    clear: both;
+    color: darkgreen;
+    padding: 0%;
+    margin: 0%;
+    max-width: 100vh;
+}
+
+.deleteBtn{
+    padding: 0%;
+    margin-left: 0px;
+    float: right;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/deleteIcon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    cursor: pointer;
+
+}
+
+.editBtn{
+    padding: 0%;
+    margin-left: 0px;
+    float: right;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/editIcon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    cursor: pointer;
+}
+
+.arrowBtn{
+    padding: 0%;
+    margin-left: 0px;
+    float: right;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/arrowIcon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    cursor: pointer;
+}
+
+.checkBtn{
+    padding: 0%;
+    margin-left: 0px;
+    float: right;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/checkIcon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    cursor: pointer;
+}
+
+
+.taskText{
+    display: inline-block;
+    width: calc(100% - 150px); 
+    vertical-align: middle;
+    word-wrap: break-word;
+    margin: 5px 0;
 }
