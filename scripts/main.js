@@ -44,13 +44,12 @@ function createTaskElement(taskText, level = "level1") {
   deleteBtn.addEventListener("click", e => {
     if (confirm("Bu görevi silmekten emin misiniz?") == true) {
       for(let i = 1; i <= itemsId; i++){
-        // localStorage.key(i) YERİNE DOĞRUDAN getItem(i) KULLANIYORUZ
         const tmp = localStorage.getItem(i);
 
         if(tmp === task.textContent){
           item.remove();
           localStorage.removeItem(i);
-          localStorage.removeItem("-" + i); // Silinince level statüsünü de temizle
+          localStorage.removeItem("-" + i); 
           console.log("\"" + task.textContent + "\" başarıyla silindi!");
           break; 
         } 
